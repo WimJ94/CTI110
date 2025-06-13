@@ -1,0 +1,17 @@
+print("-----Caculating Exponenets-----")
+
+
+base = input("Enter an integer as the base value: ")
+expon = input("Enter an integer as the exponent: ")
+final_value = int(base) ** int(expon)
+print(base, "Rasied to the power of", expon, "is", final_value)
+
+
+print("-----Addition and Subtraction-----")
+
+
+start = input("enter a starting integer: ")
+add = input("Enter an integer to add: ")
+sub = input("Enter an integer to subtract: ")
+value = int(start) + int(add) - int(sub)
+print(start, "+", add, "-", sub, "=", value)
