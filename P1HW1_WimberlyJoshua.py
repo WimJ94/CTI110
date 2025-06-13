@@ -1,9 +1,14 @@
+#Wimberly Joshua
+#06/12/2025
+#P1HW1
+# This program will take users input and caculate the results of different operations.
+
 print("-----Caculating Exponenets-----\n")
 
 
 base = input("Enter an integer as the base value: ")
 expon = input("Enter an integer as the exponent: ")
-final_value = int(base) ** int(expon)
+final_value = int(base) * int(expon)
 print()
 print(base, "Rasied to the power of", expon, "is", final_value)
 
